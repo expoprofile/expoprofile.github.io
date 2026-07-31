@@ -1,0 +1,267 @@
+[
+  {
+    "id": "smart-tech-korea-2026",
+    "name": "Smart Tech Korea 2026",
+    "subtitle": "AI, 로봇, 리테일테크, 보안, 퀀텀 산업 전시",
+    "startDate": "2026-06-10T00:00:00.000",
+    "endDate": "2026-06-12T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "COEX Hall A-D",
+    "sourceName": "Smart Tech Korea",
+    "sourceUrl": "https://en.smarttechkorea.com/Exhibition",
+    "tags": [
+      "AI",
+      "Robot",
+      "Security",
+      "RetailTech"
+    ],
+    "focusAreas": [
+      "B2B 전시",
+      "산업 솔루션",
+      "스폰서 부스"
+    ],
+    "sponsorSignals": [
+      "제품 상담",
+      "데모 신청",
+      "도입 문의",
+      "자료 요청"
+    ],
+    "whyAutofill": "부스별 리드 수집 폼과 제품 상담 신청이 반복될 가능성이 높은 산업 전시입니다."
+  },
+  {
+    "id": "quantum-korea-2026",
+    "name": "Quantum Korea 2026",
+    "subtitle": "퀀텀 기술 전시, 컨퍼런스, 비즈니스 프로그램",
+    "startDate": "2026-07-02T00:00:00.000",
+    "endDate": "2026-07-04T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "동대문디자인플라자 Art Hall",
+    "sourceName": "Quantum Korea",
+    "sourceUrl": "https://quantum-korea.kr/ko/overview",
+    "tags": [
+      "Quantum",
+      "Research",
+      "Enterprise"
+    ],
+    "focusAreas": [
+      "정부/산업 행사",
+      "기술 상담",
+      "파트너링"
+    ],
+    "sponsorSignals": [
+      "기관/기업 소개",
+      "상담 신청",
+      "뉴스레터",
+      "제품 관심 분야"
+    ],
+    "whyAutofill": "신기술 분야 특성상 방문자 정보와 관심 기술을 묻는 부스 폼이 생기기 쉽습니다."
+  },
+  {
+    "id": "kubecon-japan-2026",
+    "name": "KubeCon + CloudNativeCon Japan 2026",
+    "subtitle": "Cloud native, Kubernetes, platform engineering 컨퍼런스",
+    "startDate": "2026-07-29T00:00:00.000",
+    "endDate": "2026-07-30T00:00:00.000",
+    "city": "요코하마",
+    "country": "JP",
+    "venue": "PACIFICO Yokohama",
+    "sourceName": "CNCF",
+    "sourceUrl": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+    "tags": [
+      "Kubernetes",
+      "DevOps",
+      "Platform",
+      "Cloud"
+    ],
+    "focusAreas": [
+      "글로벌 컨퍼런스",
+      "스폰서 전시",
+      "개발자 세션"
+    ],
+    "sponsorSignals": [
+      "클라우드 사용 현황",
+      "플랫폼 도입 계획",
+      "상담 예약",
+      "데모 요청"
+    ],
+    "whyAutofill": "벤더 부스가 많고 클라우드/DevOps 도구 비교 상담 폼이 반복될 가능성이 큽니다."
+  },
+  {
+    "id": "pycon-korea-2026",
+    "name": "PyCon Korea 2026",
+    "subtitle": "Python 개발자 커뮤니티 컨퍼런스",
+    "startDate": "2026-08-15T00:00:00.000",
+    "endDate": "2026-08-17T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "서울",
+    "sourceName": "Python.org",
+    "sourceUrl": "https://www.python.org/events/python-events/2176/",
+    "tags": [
+      "Python",
+      "Developer",
+      "Community"
+    ],
+    "focusAreas": [
+      "개발자 컨퍼런스",
+      "커뮤니티",
+      "스폰서 부스"
+    ],
+    "sponsorSignals": [
+      "채용 관심",
+      "개발 도구 관심",
+      "커뮤니티 후속 연락",
+      "부스 이벤트"
+    ],
+    "whyAutofill": "커뮤니티 행사지만 개발 도구/채용/교육 부스에서 간단한 폼 입력이 반복될 수 있습니다."
+  },
+  {
+    "id": "ai-summit-seoul-2026",
+    "name": "AI Summit Seoul & Expo 2026",
+    "subtitle": "엔터프라이즈 AI, 데이터, 인프라 전시와 컨퍼런스",
+    "startDate": "2026-08-19T00:00:00.000",
+    "endDate": "2026-08-21T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "COEX Grand Ballroom, Hall B",
+    "sourceName": "AI Summit Seoul",
+    "sourceUrl": "https://www.aisummitseoul.com/home/",
+    "tags": [
+      "AI",
+      "Data",
+      "Cloud",
+      "Enterprise"
+    ],
+    "focusAreas": [
+      "B2B 컨퍼런스",
+      "솔루션 전시",
+      "스폰서 상담"
+    ],
+    "sponsorSignals": [
+      "AI 도입 단계",
+      "관심 제품군",
+      "상담 희망",
+      "자료 다운로드"
+    ],
+    "whyAutofill": "AI 솔루션 벤더가 많아 관심 제품군/도입 예정 시기 같은 반복 질문 재사용 가치가 큽니다."
+  },
+  {
+    "id": "kes-2026",
+    "name": "Korea Electronics Show 2026",
+    "subtitle": "전자, IT, 모빌리티, 디지털 헬스, 융합 산업 전시",
+    "startDate": "2026-10-13T00:00:00.000",
+    "endDate": "2026-10-16T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "COEX Hall A, B",
+    "sourceName": "KES",
+    "sourceUrl": "https://www.kes.org/eng/intro/info.asp",
+    "tags": [
+      "Electronics",
+      "Mobility",
+      "Digital Health"
+    ],
+    "focusAreas": [
+      "대형 전시",
+      "제조/IT",
+      "비즈니스 상담"
+    ],
+    "sponsorSignals": [
+      "구매/도입 문의",
+      "유통 상담",
+      "파트너십",
+      "제품군 관심"
+    ],
+    "whyAutofill": "참가 업체가 많고 산업군별 상담 폼이 반복되어 행사 전 프로필 준비 가치가 큽니다."
+  },
+  {
+    "id": "aws-summit-seoul-2026",
+    "name": "AWS Summit Seoul 2026",
+    "subtitle": "AWS 클라우드, AI, 데이터, 파트너 솔루션 컨퍼런스",
+    "startDate": "2026-05-20T00:00:00.000",
+    "endDate": "2026-05-21T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "COEX Convention Center",
+    "sourceName": "AWS",
+    "sourceUrl": "https://aws.amazon.com/ko/events/summits/seoul/",
+    "tags": [
+      "Cloud",
+      "AI",
+      "Data",
+      "Security"
+    ],
+    "focusAreas": [
+      "대형 클라우드 컨퍼런스",
+      "스폰서 전시",
+      "파트너 부스"
+    ],
+    "sponsorSignals": [
+      "현재 클라우드 사용",
+      "관심 서비스",
+      "상담 요청",
+      "후속 연락 동의"
+    ],
+    "whyAutofill": "사용자가 경험한 형태와 가장 가까운 행사로, 스폰서 부스 폼 자동입력의 핵심 사례입니다."
+  },
+  {
+    "id": "world-it-show-2026",
+    "name": "World IT Show 2026",
+    "subtitle": "ICT, AI, 디지털 전환, 혁신 기술 전시",
+    "startDate": "2026-04-22T00:00:00.000",
+    "endDate": "2026-04-24T00:00:00.000",
+    "city": "서울",
+    "country": "KR",
+    "venue": "COEX Hall A, B1, C",
+    "sourceName": "COEX",
+    "sourceUrl": "https://www.coexcenter.com/events/world-it-show/",
+    "tags": [
+      "ICT",
+      "AI",
+      "DX"
+    ],
+    "focusAreas": [
+      "대형 IT 전시",
+      "기업 부스",
+      "비즈니스 매칭"
+    ],
+    "sponsorSignals": [
+      "관심 기술",
+      "도입 계획",
+      "상담 요청",
+      "자료 수신"
+    ],
+    "whyAutofill": "전시 규모가 크고 유사한 부스 폼을 여러 번 입력할 가능성이 높습니다."
+  },
+  {
+    "id": "secon-2026",
+    "name": "SECON 2026",
+    "subtitle": "보안, 물리보안, 사이버보안, 공공/기업 보안 전시",
+    "startDate": "2026-03-18T00:00:00.000",
+    "endDate": "2026-03-20T00:00:00.000",
+    "city": "고양",
+    "country": "KR",
+    "venue": "KINTEX",
+    "sourceName": "SECON",
+    "sourceUrl": "https://www.seconexpo.com/2026/eng/main.asp",
+    "tags": [
+      "Security",
+      "Cybersecurity",
+      "Public"
+    ],
+    "focusAreas": [
+      "보안 산업 전시",
+      "기업 상담",
+      "솔루션 비교"
+    ],
+    "sponsorSignals": [
+      "보안 과제",
+      "도입 시기",
+      "예산/조직 규모",
+      "후속 미팅"
+    ],
+    "whyAutofill": "보안 솔루션 부스는 회사/직책/관심 영역과 도입 현황 질문이 반복되기 쉽습니다."
+  }
+]

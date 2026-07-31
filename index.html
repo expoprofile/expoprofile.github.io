@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>전시회 자동입력 프로필</title>
+<meta name="description" content="전시회·컨퍼런스에서 반복 입력하는 이름, 이메일, 회사 정보를 프로필로 저장하고 QR로 열람한 폼에 자동입력을 제안하는 앱." />
+<style>
+  :root {
+    --blue: #2563EB;
+    --blue-dark: #123A8C;
+    --ink: #162033;
+    --muted: #617086;
+    --line: #DCE3EC;
+    --bg: #F7F9FC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  header.hero {
+    background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+    color: white;
+    padding: 64px 0 80px;
+  }
+  .hero-inner {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .hero-inner img {
+    width: 96px;
+    height: 96px;
+    border-radius: 22px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    flex-shrink: 0;
+  }
+  .hero-text h1 { font-size: 1.9em; margin: 0 0 8px; }
+  .hero-text p { margin: 0; opacity: 0.88; font-size: 1.05em; line-height: 1.6; }
+  main { margin-top: -48px; }
+  .card {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(18,58,140,0.06);
+  }
+  .card h2 { font-size: 1.2em; margin-top: 0; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .feature {
+    padding: 16px;
+    border-radius: 12px;
+    background: var(--bg);
+  }
+  .feature h3 { font-size: 1em; margin: 0 0 6px; }
+  .feature p { margin: 0; color: var(--muted); font-size: 0.92em; line-height: 1.5; }
+  .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+  .links a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.92em;
+  }
+  .links a.primary { background: var(--blue); color: white; }
+  .links a.secondary { background: white; color: var(--ink); border: 1px solid var(--line); }
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    color: var(--muted);
+    font-size: 0.85em;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <img src="icon.png" alt="전시회 자동입력 프로필 아이콘" />
+    <div class="hero-text">
+      <h1>전시회 자동입력 프로필</h1>
+      <p>전시회·컨퍼런스에서 반복 입력하는 이름, 이메일, 회사, 직책을 프로필로 한 번만 저장하세요.<br />
+      부스 QR을 스캔하면 외부 등록 폼에 자동입력을 제안합니다.</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card">
+    <h2>어떻게 동작하나요</h2>
+    <div class="grid">
+      <div class="feature">
+        <h3>1. 프로필 저장</h3>
+        <p>이름, 이메일, 전화번호, 회사, 직책을 앱에 한 번만 저장합니다.</p>
+      </div>
+      <div class="feature">
+        <h3>2. QR 스캔</h3>
+        <p>부스나 행사장의 QR을 스캔하면 등록 폼이 앱 안에서 바로 열립니다.</p>
+      </div>
+      <div class="feature">
+        <h3>3. 자동입력 제안</h3>
+        <p>필드별로 자동입력을 제안하고, 항목별로 직접 확인 후 채워 넣습니다. 자동 제출은 하지 않습니다.</p>
+      </div>
+      <div class="feature">
+        <h3>4. 기기에만 저장</h3>
+        <p>모든 정보는 기기에 암호화 저장되며 외부 서버로 전송되지 않습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>링크</h2>
+    <div class="links">
+      <a class="secondary" href="privacy-policy.html">개인정보처리방침</a>
+      <a class="secondary" href="events.json">전시회 데이터 피드 (JSON)</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    © 2026 전시회 자동입력 프로필 · <a href="https://github.com/expoprofile">github.com/expoprofile</a>
+  </div>
+</footer>
+
+</body>
+</html>

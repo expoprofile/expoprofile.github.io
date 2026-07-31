@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>개인정보처리방침 - 전시회 자동입력 프로필</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; font-size: 0.95em; }
+  th { background: #f5f5f5; }
+  .updated { color: #666; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>개인정보처리방침</h1>
+<p class="updated">시행일: 2026-07-31</p>
+
+<p>
+"전시회 자동입력 프로필" (패키지명: <code>com.ksides.autofillwallet</code>, 이하 "앱")은
+전시회·컨퍼런스 현장에서 사용자가 반복 입력하는 이름, 전화번호, 이메일 등을 개인 프로필로 저장하고,
+외부 폼을 열었을 때 자동입력을 제안하는 개인용 도구입니다. 본 방침은 앱이 처리하는 정보와
+처리 방식을 설명합니다.
+</p>
+
+<h2>1. 수집하는 정보와 저장 위치</h2>
+<table>
+  <tr><th>정보</th><th>용도</th><th>저장 위치</th></tr>
+  <tr>
+    <td>이름, 전화번호, 이메일, 회사, 직책, 관심 분야 등 프로필 정보</td>
+    <td>외부 폼 자동입력 제안</td>
+    <td>기기 내 암호화 저장소 (Android Keystore 기반 <code>flutter_secure_storage</code>)</td>
+  </tr>
+  <tr>
+    <td>폼 제출 이력 (제출한 폼 URL, 공유한 필드 목록, 행사 정보)</td>
+    <td>과거 공유 내역 확인</td>
+    <td>기기 내 로컬 저장소 (<code>SharedPreferences</code>)</td>
+  </tr>
+  <tr>
+    <td>카메라 영상 프레임</td>
+    <td>QR 코드/URL 스캔</td>
+    <td>기기 메모리에서만 실시간 처리, 저장하지 않음</td>
+  </tr>
+</table>
+
+<p>
+위 정보는 모두 <strong>사용자의 기기 안에만 저장</strong>되며, 앱 자체 서버나 개발자에게
+전송되지 않습니다. 앱은 별도의 백엔드 서버, 분석(analytics) SDK, 광고 SDK를 사용하지 않습니다.
+</p>
+
+<h2>2. 외부 폼(WebView) 이용 시 주의사항</h2>
+<p>
+앱은 QR 스캔이나 URL 입력으로 열람한 외부 폼을 앱 내 브라우저(WebView)로 표시하고,
+사용자가 승인한 필드만 자동입력합니다. 이 과정에서 사용자가 자동입력을 승인한 필드 값은
+해당 외부 폼 페이지로 전달되며, 이후 처리(수집, 저장, 활용)는 그 외부 폼을 운영하는
+제3자(전시회 주최자, 스폰서 업체 등)의 개인정보처리방침을 따릅니다. 앱은 이 외부 사이트의
+데이터 처리에 관여하지 않습니다.
+</p>
+
+<h2>3. 권한 사용 목적</h2>
+<table>
+  <tr><th>권한</th><th>목적</th></tr>
+  <tr><td>카메라</td><td>부스/행사장의 QR 코드를 스캔하여 외부 폼 URL을 여는 용도로만 사용</td></tr>
+  <tr><td>인터넷</td><td>사용자가 지정한 외부 폼 URL을 앱 내 WebView로 여는 용도로만 사용</td></tr>
+</table>
+
+<h2>4. 정보의 보관 기간과 삭제</h2>
+<p>
+프로필과 이력 정보는 사용자가 앱 내에서 직접 삭제하거나 앱을 삭제할 때까지 기기에 보관됩니다.
+이력 화면에서 개별 항목을 길게 눌러 삭제할 수 있고, 프로필 화면에서 프로필 전체를 초기화할 수 있습니다.
+</p>
+
+<h2>5. 제3자 제공</h2>
+<p>앱은 수집한 정보를 개발자를 포함한 어떠한 제3자에게도 판매, 공유, 전송하지 않습니다.</p>
+
+<h2>6. 아동 개인정보</h2>
+<p>본 앱은 B2B/IT 컨퍼런스 참가자를 대상으로 하며, 만 14세 미만 아동을 대상으로 하지 않습니다.</p>
+
+<h2>7. 문의</h2>
+<p>본 방침이나 앱의 개인정보 처리에 관한 문의는 아래 연락처로 보내주세요.</p>
+<p>이메일: heonseob.lee@whatap.io</p>
+
+<h2>8. 방침 변경</h2>
+<p>본 방침은 앱 기능 변경에 따라 수정될 수 있으며, 변경 시 이 페이지에 게시하고 시행일을 갱신합니다.</p>
+
+</body>
+</html>
