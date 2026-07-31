@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>노바엑스포 2026 · 부스 상담 신청</title>
+<style>
+  :root {
+    --blue: #2563EB;
+    --ink: #162033;
+    --muted: #617086;
+    --line: #DCE3EC;
+    --bg: #F7F9FC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 20px 16px 48px;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; }
+  .banner {
+    background: #EAF1FF;
+    color: var(--blue);
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 1.35em; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 24px; font-size: 0.95em; }
+  fieldset {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    padding: 16px;
+    margin: 0 0 16px;
+  }
+  legend { font-weight: 800; font-size: 0.9em; padding: 0 6px; }
+  .field { margin-bottom: 16px; }
+  .field:last-child { margin-bottom: 0; }
+  label {
+    display: block;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+  }
+  .req { color: #C2410C; }
+  input, select, textarea {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: inherit;
+    background: #fff;
+    color: var(--ink);
+  }
+  input:focus, select:focus, textarea:focus {
+    outline: 2px solid var(--blue);
+    outline-offset: -1px;
+  }
+  textarea { min-height: 78px; resize: vertical; }
+  .hint { color: var(--muted); font-size: 0.8em; margin-top: 4px; }
+  button {
+    width: 100%;
+    padding: 14px;
+    background: var(--blue);
+    color: #fff;
+    border: 0;
+    border-radius: 999px;
+    font-size: 1em;
+    font-weight: 800;
+    font-family: inherit;
+  }
+  #done {
+    display: none;
+    background: #E8F7EF;
+    border: 1px solid #BCE8D1;
+    color: #0F8F62;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+  }
+  #done p { font-weight: 500; color: var(--ink); margin: 8px 0 0; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="banner">테스트용 샘플 폼 · 실제 행사와 무관하며 입력값은 어디에도 저장되지 않습니다</div>
+
+  <h1>노바엑스포 2026 · 부스 상담 신청</h1>
+  <p class="lead">
+    부스 방문 감사합니다. 상담 자료를 보내드릴 수 있도록 아래 정보를 남겨주세요.
+  </p>
+
+  <form id="lead-form">
+    <fieldset>
+      <legend>기본 정보</legend>
+
+      <div class="field">
+        <label for="visitor-name">이름 <span class="req">*</span></label>
+        <input type="text" id="visitor-name" name="name" placeholder="홍길동" required />
+      </div>
+
+      <div class="field">
+        <label for="visitor-email">이메일 <span class="req">*</span></label>
+        <input type="email" id="visitor-email" name="email" placeholder="you@company.com" required />
+      </div>
+
+      <div class="field">
+        <label for="visitor-phone">연락처</label>
+        <input type="tel" id="visitor-phone" name="phone" placeholder="010-0000-0000" />
+      </div>
+
+      <div class="field">
+        <label for="visitor-company">회사명</label>
+        <input type="text" id="visitor-company" name="company" />
+      </div>
+
+      <div class="field">
+        <label for="visitor-title">직책</label>
+        <input type="text" id="visitor-title" name="title" />
+      </div>
+
+      <div class="field">
+        <label for="visitor-linkedin">LinkedIn 프로필 URL</label>
+        <input type="url" id="visitor-linkedin" name="linkedin" placeholder="https://linkedin.com/in/..." />
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>상담 내용</legend>
+
+      <div class="field">
+        <label for="visitor-interests">관심 분야</label>
+        <textarea id="visitor-interests" name="interests"
+          placeholder="예: AI 자동화, 데이터 보안"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="visitor-cloud">현재 클라우드</label>
+        <select id="visitor-cloud" name="currentCloud">
+          <option value="">선택하세요</option>
+          <option>AWS</option>
+          <option>Azure</option>
+          <option>Google Cloud</option>
+          <option>네이버 클라우드</option>
+          <option>온프레미스</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="visitor-products">관심 제품군</label>
+        <input type="text" id="visitor-products" name="interestedProducts"
+          placeholder="예: APM, 로그 분석" />
+      </div>
+
+      <div class="field">
+        <label for="visitor-budget">도입 예산·시기</label>
+        <select id="visitor-budget" name="budgetTimeline">
+          <option value="">선택하세요</option>
+          <option>3개월 이내</option>
+          <option>6개월 이내</option>
+          <option>1년 이내</option>
+          <option>미정</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>계정 (자동입력 차단 확인용)</legend>
+      <div class="field">
+        <label for="visitor-password">비밀번호</label>
+        <input type="password" id="visitor-password" name="password" />
+        <div class="hint">
+          민감 항목입니다. 앱이 이 필드를 자동입력 대상에서 제외하는지 확인하는 용도입니다.
+        </div>
+      </div>
+    </fieldset>
+
+    <button type="submit">상담 신청하기</button>
+  </form>
+
+  <div id="done">
+    제출이 완료되었습니다
+    <p>테스트용 폼이므로 입력하신 내용은 전송·저장되지 않았습니다.</p>
+  </div>
+
+</div>
+
+<script>
+  document.getElementById('lead-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    this.style.display = 'none';
+    document.getElementById('done').style.display = 'block';
+    window.scrollTo(0, 0);
+  });
+</script>
+</body>
+</html>
