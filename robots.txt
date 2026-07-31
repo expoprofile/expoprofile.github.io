@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# 자동입력 동작 확인용 임시 테스트 폼. 실제 콘텐츠가 아니므로 색인 대상에서 제외한다.
+Disallow: /demo-form.html
+
+Sitemap: https://expoprofile.github.io/sitemap.xml

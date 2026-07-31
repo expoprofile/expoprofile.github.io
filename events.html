@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>국내외 IT·B2B 전시회 컨퍼런스 일정 목록 (2026) - 전시회 자동입력 프로필</title>
+<meta name="description" content="COEX·KINTEX 등에서 열리는 2026년 국내외 IT·B2B 전시회와 컨퍼런스 일정을 날짜, 장소, 분야, 공식 사이트 링크와 함께 정리했습니다. 부스 등록 폼 자동입력 앱이 사용하는 행사 목록입니다." />
+<link rel="canonical" href="https://expoprofile.github.io/events.html" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="전시회 자동입력 프로필" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:title" content="국내외 IT·B2B 전시회 컨퍼런스 일정 목록 (2026) - 전시회 자동입력 프로필" />
+<meta property="og:description" content="COEX·KINTEX 등에서 열리는 2026년 국내외 IT·B2B 전시회와 컨퍼런스 일정을 날짜, 장소, 분야, 공식 사이트 링크와 함께 정리했습니다. 부스 등록 폼 자동입력 앱이 사용하는 행사 목록입니다." />
+<meta property="og:url" content="https://expoprofile.github.io/events.html" />
+<meta property="og:image" content="https://expoprofile.github.io/icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="국내외 IT·B2B 전시회 컨퍼런스 일정 목록 (2026) - 전시회 자동입력 프로필" />
+<meta name="twitter:description" content="COEX·KINTEX 등에서 열리는 2026년 국내외 IT·B2B 전시회와 컨퍼런스 일정을 날짜, 장소, 분야, 공식 사이트 링크와 함께 정리했습니다. 부스 등록 폼 자동입력 앱이 사용하는 행사 목록입니다." />
+<meta name="twitter:image" content="https://expoprofile.github.io/icon.png" />
+<style>
+  :root {
+    --blue: #2563EB;
+    --blue-dark: #123A8C;
+    --ink: #162033;
+    --muted: #617086;
+    --line: #DCE3EC;
+    --bg: #F7F9FC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  header.hero {
+    background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+    color: white;
+    padding: 56px 0 72px;
+  }
+  .hero-text h1 { font-size: 1.75em; margin: 0 0 10px; line-height: 1.35; }
+  .hero-text p { margin: 0; opacity: 0.88; font-size: 1.02em; line-height: 1.6; }
+  .crumb { font-size: 0.85em; opacity: 0.8; margin: 0 0 14px; }
+  .crumb a { color: white; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.5); }
+  main { margin-top: -48px; padding-bottom: 8px; }
+  .card {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(18,58,140,0.06);
+  }
+  .card h2 { font-size: 1.2em; margin-top: 0; }
+  .intro p { color: var(--muted); line-height: 1.7; margin: 0 0 10px; font-size: 0.95em; }
+  .intro p:last-child { margin-bottom: 0; }
+  .toc { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 8px; }
+  .toc a { color: var(--blue); text-decoration: none; font-size: 0.93em; font-weight: 600; }
+  .toc a:hover { text-decoration: underline; }
+  .toc span { color: var(--muted); font-weight: 400; font-size: 0.92em; }
+  h2.section {
+    font-size: 1.05em;
+    margin: 32px 0 14px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .event { scroll-margin-top: 16px; }
+  .event.is-past { background: #FCFDFE; }
+  .event-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .event-name { font-size: 1.12em; margin: 0; line-height: 1.4; }
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.72em;
+    font-weight: 700;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .badge-upcoming { background: #EAF1FF; color: var(--blue); }
+  .badge-past { background: #EEF1F5; color: var(--muted); }
+  .event-sub { margin: 8px 0 16px; color: var(--muted); font-size: 0.94em; line-height: 1.6; }
+  dl.meta {
+    margin: 0 0 14px;
+    display: grid;
+    grid-template-columns: 68px 1fr;
+    gap: 6px 12px;
+    font-size: 0.94em;
+  }
+  dl.meta dt { color: var(--muted); font-size: 0.9em; }
+  dl.meta dd { margin: 0; }
+  .chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  .chip-label {
+    font-size: 0.8em;
+    color: var(--muted);
+    margin-right: 2px;
+  }
+  .chip {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #EAF1FF;
+    color: var(--blue-dark);
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  .chip-soft { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+  .why {
+    margin: 14px 0 0;
+    padding: 14px 16px;
+    background: var(--bg);
+    border-radius: 12px;
+    color: var(--muted);
+    font-size: 0.92em;
+    line-height: 1.65;
+  }
+  .why strong { color: var(--ink); font-size: 0.95em; }
+  .source { margin: 14px 0 0; font-size: 0.9em; color: var(--muted); }
+  .source a { color: var(--blue); font-weight: 600; }
+  .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+  .links a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.92em;
+    background: white;
+    color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    color: var(--muted);
+    font-size: 0.85em;
+    line-height: 1.7;
+  }
+  footer a { color: var(--muted); }
+  @media (max-width: 520px) {
+    .wrap { padding: 0 16px; }
+    header.hero { padding: 44px 0 64px; }
+    .hero-text h1 { font-size: 1.4em; }
+    .card { padding: 20px 18px; border-radius: 14px; }
+    dl.meta { grid-template-columns: 60px 1fr; font-size: 0.9em; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-text">
+    <p class="crumb"><a href="index.html">전시회 자동입력 프로필</a> · 행사 목록</p>
+    <h1>IT·B2B 전시회 컨퍼런스 일정 (9건)</h1>
+    <p>앱이 사용하는 행사 데이터를 사람이 읽을 수 있게 정리한 페이지입니다.
+    날짜, 도시, 장소, 분야와 공식 사이트 링크를 함께 제공합니다.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card intro">
+    <h2>이 목록은 무엇인가요</h2>
+    <p>COEX, KINTEX, DDP 등에서 열리는 국내 IT·B2B 전시회와 개발자 컨퍼런스를 모았습니다.
+    각 행사마다 부스 등록 폼에서 반복해서 묻는 항목과, 프로필 자동입력이 도움이 되는 이유를 함께 적었습니다.</p>
+    <p>이 페이지의 내용은 앱이 내려받는 데이터 피드
+    <a href="events.json">events.json</a> 과 같은 원본에서 생성됩니다.
+    기준일 <time datetime="2026-08-01">2026년 8월 1일</time> 이전에 끝난 행사는 종료로 표시하되,
+    기록을 위해 목록에 그대로 남겨 둡니다.</p>
+    <ul class="toc">
+    <li><a href="#pycon-korea-2026">PyCon Korea 2026</a> <span>· 2026년 8월 15일 ~ 17일 · 서울 · 예정</span></li>
+    <li><a href="#ai-summit-seoul-2026">AI Summit Seoul &amp; Expo 2026</a> <span>· 2026년 8월 19일 ~ 21일 · 서울 · 예정</span></li>
+    <li><a href="#kes-2026">Korea Electronics Show 2026</a> <span>· 2026년 10월 13일 ~ 16일 · 서울 · 예정</span></li>
+    <li><a href="#kubecon-japan-2026">KubeCon + CloudNativeCon Japan 2026</a> <span>· 2026년 7월 29일 ~ 30일 · 요코하마 · 종료</span></li>
+    <li><a href="#quantum-korea-2026">Quantum Korea 2026</a> <span>· 2026년 7월 2일 ~ 4일 · 서울 · 종료</span></li>
+    <li><a href="#smart-tech-korea-2026">Smart Tech Korea 2026</a> <span>· 2026년 6월 10일 ~ 12일 · 서울 · 종료</span></li>
+    <li><a href="#aws-summit-seoul-2026">AWS Summit Seoul 2026</a> <span>· 2026년 5월 20일 ~ 21일 · 서울 · 종료</span></li>
+    <li><a href="#world-it-show-2026">World IT Show 2026</a> <span>· 2026년 4월 22일 ~ 24일 · 서울 · 종료</span></li>
+    <li><a href="#secon-2026">SECON 2026</a> <span>· 2026년 3월 18일 ~ 20일 · 고양 · 종료</span></li>
+    </ul>
+  </div>
+
+<h2 class="section">예정된 행사</h2>
+<article class="card event" id="pycon-korea-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "PyCon Korea 2026",
+  "startDate": "2026-08-15",
+  "endDate": "2026-08-17",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Python 개발자 커뮤니티 컨퍼런스 커뮤니티 행사지만 개발 도구/채용/교육 부스에서 간단한 폼 입력이 반복될 수 있습니다.",
+  "url": "https://www.python.org/events/python-events/2176/",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "서울",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "Python, Developer, Community",
+  "about": [
+    "개발자 컨퍼런스",
+    "커뮤니티",
+    "스폰서 부스"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "Python.org",
+    "url": "https://www.python.org/events/python-events/2176/"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#pycon-korea-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">PyCon Korea 2026</h3>
+    <span class="badge badge-upcoming">예정</span>
+  </div>
+  <p class="event-sub">Python 개발자 커뮤니티 컨퍼런스</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-08-15">2026년 8월 15일 ~ 17일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>서울</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">Python</span><span class="chip">Developer</span><span class="chip">Community</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">개발자 컨퍼런스</span><span class="chip chip-soft">커뮤니티</span><span class="chip chip-soft">스폰서 부스</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">채용 관심</span><span class="chip chip-soft">개발 도구 관심</span><span class="chip chip-soft">커뮤니티 후속 연락</span><span class="chip chip-soft">부스 이벤트</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />커뮤니티 행사지만 개발 도구/채용/교육 부스에서 간단한 폼 입력이 반복될 수 있습니다.</p>
+  <p class="source">공식 사이트: <a href="https://www.python.org/events/python-events/2176/" target="_blank" rel="noopener">Python.org</a></p>
+</article>
+<article class="card event" id="ai-summit-seoul-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "AI Summit Seoul & Expo 2026",
+  "startDate": "2026-08-19",
+  "endDate": "2026-08-21",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "엔터프라이즈 AI, 데이터, 인프라 전시와 컨퍼런스 AI 솔루션 벤더가 많아 관심 제품군/도입 예정 시기 같은 반복 질문 재사용 가치가 큽니다.",
+  "url": "https://www.aisummitseoul.com/home/",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "COEX Grand Ballroom, Hall B",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "AI, Data, Cloud, Enterprise",
+  "about": [
+    "B2B 컨퍼런스",
+    "솔루션 전시",
+    "스폰서 상담"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "AI Summit Seoul",
+    "url": "https://www.aisummitseoul.com/home/"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#ai-summit-seoul-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">AI Summit Seoul &amp; Expo 2026</h3>
+    <span class="badge badge-upcoming">예정</span>
+  </div>
+  <p class="event-sub">엔터프라이즈 AI, 데이터, 인프라 전시와 컨퍼런스</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-08-19">2026년 8월 19일 ~ 21일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>COEX Grand Ballroom, Hall B</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">AI</span><span class="chip">Data</span><span class="chip">Cloud</span><span class="chip">Enterprise</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">B2B 컨퍼런스</span><span class="chip chip-soft">솔루션 전시</span><span class="chip chip-soft">스폰서 상담</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">AI 도입 단계</span><span class="chip chip-soft">관심 제품군</span><span class="chip chip-soft">상담 희망</span><span class="chip chip-soft">자료 다운로드</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />AI 솔루션 벤더가 많아 관심 제품군/도입 예정 시기 같은 반복 질문 재사용 가치가 큽니다.</p>
+  <p class="source">공식 사이트: <a href="https://www.aisummitseoul.com/home/" target="_blank" rel="noopener">AI Summit Seoul</a></p>
+</article>
+<article class="card event" id="kes-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Korea Electronics Show 2026",
+  "startDate": "2026-10-13",
+  "endDate": "2026-10-16",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "전자, IT, 모빌리티, 디지털 헬스, 융합 산업 전시 참가 업체가 많고 산업군별 상담 폼이 반복되어 행사 전 프로필 준비 가치가 큽니다.",
+  "url": "https://www.kes.org/eng/intro/info.asp",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "COEX Hall A, B",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "Electronics, Mobility, Digital Health",
+  "about": [
+    "대형 전시",
+    "제조/IT",
+    "비즈니스 상담"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "KES",
+    "url": "https://www.kes.org/eng/intro/info.asp"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#kes-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">Korea Electronics Show 2026</h3>
+    <span class="badge badge-upcoming">예정</span>
+  </div>
+  <p class="event-sub">전자, IT, 모빌리티, 디지털 헬스, 융합 산업 전시</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-10-13">2026년 10월 13일 ~ 16일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>COEX Hall A, B</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">Electronics</span><span class="chip">Mobility</span><span class="chip">Digital Health</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">대형 전시</span><span class="chip chip-soft">제조/IT</span><span class="chip chip-soft">비즈니스 상담</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">구매/도입 문의</span><span class="chip chip-soft">유통 상담</span><span class="chip chip-soft">파트너십</span><span class="chip chip-soft">제품군 관심</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />참가 업체가 많고 산업군별 상담 폼이 반복되어 행사 전 프로필 준비 가치가 큽니다.</p>
+  <p class="source">공식 사이트: <a href="https://www.kes.org/eng/intro/info.asp" target="_blank" rel="noopener">KES</a></p>
+</article>
+<h2 class="section">종료된 행사 (기록용)</h2>
+<article class="card event is-past" id="kubecon-japan-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "KubeCon + CloudNativeCon Japan 2026",
+  "startDate": "2026-07-29",
+  "endDate": "2026-07-30",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Cloud native, Kubernetes, platform engineering 컨퍼런스 벤더 부스가 많고 클라우드/DevOps 도구 비교 상담 폼이 반복될 가능성이 큽니다.",
+  "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "PACIFICO Yokohama",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "요코하마",
+      "addressCountry": "JP"
+    }
+  },
+  "keywords": "Kubernetes, DevOps, Platform, Cloud",
+  "about": [
+    "글로벌 컨퍼런스",
+    "스폰서 전시",
+    "개발자 세션"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "CNCF",
+    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#kubecon-japan-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">KubeCon + CloudNativeCon Japan 2026</h3>
+    <span class="badge badge-past">종료</span>
+  </div>
+  <p class="event-sub">Cloud native, Kubernetes, platform engineering 컨퍼런스</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-07-29">2026년 7월 29일 ~ 30일</time></dd>
+    <dt>도시</dt><dd>요코하마 (일본)</dd>
+    <dt>장소</dt><dd>PACIFICO Yokohama</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">Kubernetes</span><span class="chip">DevOps</span><span class="chip">Platform</span><span class="chip">Cloud</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">글로벌 컨퍼런스</span><span class="chip chip-soft">스폰서 전시</span><span class="chip chip-soft">개발자 세션</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">클라우드 사용 현황</span><span class="chip chip-soft">플랫폼 도입 계획</span><span class="chip chip-soft">상담 예약</span><span class="chip chip-soft">데모 요청</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />벤더 부스가 많고 클라우드/DevOps 도구 비교 상담 폼이 반복될 가능성이 큽니다.</p>
+  <p class="source">공식 사이트: <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/" target="_blank" rel="noopener">CNCF</a></p>
+</article>
+<article class="card event is-past" id="quantum-korea-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Quantum Korea 2026",
+  "startDate": "2026-07-02",
+  "endDate": "2026-07-04",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "퀀텀 기술 전시, 컨퍼런스, 비즈니스 프로그램 신기술 분야 특성상 방문자 정보와 관심 기술을 묻는 부스 폼이 생기기 쉽습니다.",
+  "url": "https://quantum-korea.kr/ko/overview",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "동대문디자인플라자 Art Hall",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "Quantum, Research, Enterprise",
+  "about": [
+    "정부/산업 행사",
+    "기술 상담",
+    "파트너링"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "Quantum Korea",
+    "url": "https://quantum-korea.kr/ko/overview"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#quantum-korea-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">Quantum Korea 2026</h3>
+    <span class="badge badge-past">종료</span>
+  </div>
+  <p class="event-sub">퀀텀 기술 전시, 컨퍼런스, 비즈니스 프로그램</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-07-02">2026년 7월 2일 ~ 4일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>동대문디자인플라자 Art Hall</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">Quantum</span><span class="chip">Research</span><span class="chip">Enterprise</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">정부/산업 행사</span><span class="chip chip-soft">기술 상담</span><span class="chip chip-soft">파트너링</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">기관/기업 소개</span><span class="chip chip-soft">상담 신청</span><span class="chip chip-soft">뉴스레터</span><span class="chip chip-soft">제품 관심 분야</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />신기술 분야 특성상 방문자 정보와 관심 기술을 묻는 부스 폼이 생기기 쉽습니다.</p>
+  <p class="source">공식 사이트: <a href="https://quantum-korea.kr/ko/overview" target="_blank" rel="noopener">Quantum Korea</a></p>
+</article>
+<article class="card event is-past" id="smart-tech-korea-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Smart Tech Korea 2026",
+  "startDate": "2026-06-10",
+  "endDate": "2026-06-12",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "AI, 로봇, 리테일테크, 보안, 퀀텀 산업 전시 부스별 리드 수집 폼과 제품 상담 신청이 반복될 가능성이 높은 산업 전시입니다.",
+  "url": "https://en.smarttechkorea.com/Exhibition",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "COEX Hall A-D",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "AI, Robot, Security, RetailTech",
+  "about": [
+    "B2B 전시",
+    "산업 솔루션",
+    "스폰서 부스"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "Smart Tech Korea",
+    "url": "https://en.smarttechkorea.com/Exhibition"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#smart-tech-korea-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">Smart Tech Korea 2026</h3>
+    <span class="badge badge-past">종료</span>
+  </div>
+  <p class="event-sub">AI, 로봇, 리테일테크, 보안, 퀀텀 산업 전시</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-06-10">2026년 6월 10일 ~ 12일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>COEX Hall A-D</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">AI</span><span class="chip">Robot</span><span class="chip">Security</span><span class="chip">RetailTech</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">B2B 전시</span><span class="chip chip-soft">산업 솔루션</span><span class="chip chip-soft">스폰서 부스</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">제품 상담</span><span class="chip chip-soft">데모 신청</span><span class="chip chip-soft">도입 문의</span><span class="chip chip-soft">자료 요청</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />부스별 리드 수집 폼과 제품 상담 신청이 반복될 가능성이 높은 산업 전시입니다.</p>
+  <p class="source">공식 사이트: <a href="https://en.smarttechkorea.com/Exhibition" target="_blank" rel="noopener">Smart Tech Korea</a></p>
+</article>
+<article class="card event is-past" id="aws-summit-seoul-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "AWS Summit Seoul 2026",
+  "startDate": "2026-05-20",
+  "endDate": "2026-05-21",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "AWS 클라우드, AI, 데이터, 파트너 솔루션 컨퍼런스 사용자가 경험한 형태와 가장 가까운 행사로, 스폰서 부스 폼 자동입력의 핵심 사례입니다.",
+  "url": "https://aws.amazon.com/ko/events/summits/seoul/",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "COEX Convention Center",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "Cloud, AI, Data, Security",
+  "about": [
+    "대형 클라우드 컨퍼런스",
+    "스폰서 전시",
+    "파트너 부스"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "AWS",
+    "url": "https://aws.amazon.com/ko/events/summits/seoul/"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#aws-summit-seoul-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">AWS Summit Seoul 2026</h3>
+    <span class="badge badge-past">종료</span>
+  </div>
+  <p class="event-sub">AWS 클라우드, AI, 데이터, 파트너 솔루션 컨퍼런스</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-05-20">2026년 5월 20일 ~ 21일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>COEX Convention Center</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">Cloud</span><span class="chip">AI</span><span class="chip">Data</span><span class="chip">Security</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">대형 클라우드 컨퍼런스</span><span class="chip chip-soft">스폰서 전시</span><span class="chip chip-soft">파트너 부스</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">현재 클라우드 사용</span><span class="chip chip-soft">관심 서비스</span><span class="chip chip-soft">상담 요청</span><span class="chip chip-soft">후속 연락 동의</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />사용자가 경험한 형태와 가장 가까운 행사로, 스폰서 부스 폼 자동입력의 핵심 사례입니다.</p>
+  <p class="source">공식 사이트: <a href="https://aws.amazon.com/ko/events/summits/seoul/" target="_blank" rel="noopener">AWS</a></p>
+</article>
+<article class="card event is-past" id="world-it-show-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "World IT Show 2026",
+  "startDate": "2026-04-22",
+  "endDate": "2026-04-24",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "ICT, AI, 디지털 전환, 혁신 기술 전시 전시 규모가 크고 유사한 부스 폼을 여러 번 입력할 가능성이 높습니다.",
+  "url": "https://www.coexcenter.com/events/world-it-show/",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "COEX Hall A, B1, C",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "ICT, AI, DX",
+  "about": [
+    "대형 IT 전시",
+    "기업 부스",
+    "비즈니스 매칭"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "COEX",
+    "url": "https://www.coexcenter.com/events/world-it-show/"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#world-it-show-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">World IT Show 2026</h3>
+    <span class="badge badge-past">종료</span>
+  </div>
+  <p class="event-sub">ICT, AI, 디지털 전환, 혁신 기술 전시</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-04-22">2026년 4월 22일 ~ 24일</time></dd>
+    <dt>도시</dt><dd>서울 (대한민국)</dd>
+    <dt>장소</dt><dd>COEX Hall A, B1, C</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">ICT</span><span class="chip">AI</span><span class="chip">DX</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">대형 IT 전시</span><span class="chip chip-soft">기업 부스</span><span class="chip chip-soft">비즈니스 매칭</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">관심 기술</span><span class="chip chip-soft">도입 계획</span><span class="chip chip-soft">상담 요청</span><span class="chip chip-soft">자료 수신</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />전시 규모가 크고 유사한 부스 폼을 여러 번 입력할 가능성이 높습니다.</p>
+  <p class="source">공식 사이트: <a href="https://www.coexcenter.com/events/world-it-show/" target="_blank" rel="noopener">COEX</a></p>
+</article>
+<article class="card event is-past" id="secon-2026">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "SECON 2026",
+  "startDate": "2026-03-18",
+  "endDate": "2026-03-20",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "보안, 물리보안, 사이버보안, 공공/기업 보안 전시 보안 솔루션 부스는 회사/직책/관심 영역과 도입 현황 질문이 반복되기 쉽습니다.",
+  "url": "https://www.seconexpo.com/2026/eng/main.asp",
+  "inLanguage": "ko",
+  "location": {
+    "@type": "Place",
+    "name": "KINTEX",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "고양",
+      "addressCountry": "KR"
+    }
+  },
+  "keywords": "Security, Cybersecurity, Public",
+  "about": [
+    "보안 산업 전시",
+    "기업 상담",
+    "솔루션 비교"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "SECON",
+    "url": "https://www.seconexpo.com/2026/eng/main.asp"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://expoprofile.github.io/events.html#secon-2026"
+  }
+}
+</script>
+  <div class="event-head">
+    <h3 class="event-name">SECON 2026</h3>
+    <span class="badge badge-past">종료</span>
+  </div>
+  <p class="event-sub">보안, 물리보안, 사이버보안, 공공/기업 보안 전시</p>
+  <dl class="meta">
+    <dt>기간</dt><dd><time datetime="2026-03-18">2026년 3월 18일 ~ 20일</time></dd>
+    <dt>도시</dt><dd>고양 (대한민국)</dd>
+    <dt>장소</dt><dd>KINTEX</dd>
+  </dl>
+  <div class="chip-row"><span class="chip-label">분야</span><span class="chip">Security</span><span class="chip">Cybersecurity</span><span class="chip">Public</span></div>
+  <div class="chip-row"><span class="chip-label">성격</span><span class="chip chip-soft">보안 산업 전시</span><span class="chip chip-soft">기업 상담</span><span class="chip chip-soft">솔루션 비교</span></div>
+  <div class="chip-row"><span class="chip-label">부스 폼에서 자주 묻는 항목</span><span class="chip chip-soft">보안 과제</span><span class="chip chip-soft">도입 시기</span><span class="chip chip-soft">예산/조직 규모</span><span class="chip chip-soft">후속 미팅</span></div>
+  <p class="why"><strong>자동입력이 도움이 되는 이유</strong><br />보안 솔루션 부스는 회사/직책/관심 영역과 도입 현황 질문이 반복되기 쉽습니다.</p>
+  <p class="source">공식 사이트: <a href="https://www.seconexpo.com/2026/eng/main.asp" target="_blank" rel="noopener">SECON</a></p>
+</article>
+
+  <div class="card">
+    <h2>링크</h2>
+    <div class="links">
+      <a href="index.html">앱 소개</a>
+      <a href="privacy-policy.html">개인정보처리방침</a>
+      <a href="events.json">전시회 데이터 피드 (JSON)</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    행사 정보는 각 주최 측 공식 페이지를 기준으로 정리했으며, 일정과 장소는 변경될 수 있습니다.<br />
+    최종 갱신 <time datetime="2026-08-01">2026-08-01</time> ·
+    © 2026 전시회 자동입력 프로필 · <a href="https://github.com/expoprofile">github.com/expoprofile</a>
+  </div>
+</footer>
+
+</body>
+</html>
