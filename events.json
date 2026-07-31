@@ -234,34 +234,5 @@
       "자료 수신"
     ],
     "whyAutofill": "전시 규모가 크고 유사한 부스 폼을 여러 번 입력할 가능성이 높습니다."
-  },
-  {
-    "id": "secon-2026",
-    "name": "SECON 2026",
-    "subtitle": "보안, 물리보안, 사이버보안, 공공/기업 보안 전시",
-    "startDate": "2026-03-18T00:00:00.000",
-    "endDate": "2026-03-20T00:00:00.000",
-    "city": "고양",
-    "country": "KR",
-    "venue": "KINTEX",
-    "sourceName": "SECON",
-    "sourceUrl": "https://www.seconexpo.com/2026/eng/main.asp",
-    "tags": [
-      "Security",
-      "Cybersecurity",
-      "Public"
-    ],
-    "focusAreas": [
-      "보안 산업 전시",
-      "기업 상담",
-      "솔루션 비교"
-    ],
-    "sponsorSignals": [
-      "보안 과제",
-      "도입 시기",
-      "예산/조직 규모",
-      "후속 미팅"
-    ],
-    "whyAutofill": "보안 솔루션 부스는 회사/직책/관심 영역과 도입 현황 질문이 반복되기 쉽습니다."
   }
 ]
